@@ -18,7 +18,7 @@ const OrderInfoAside = (props) => {
  let { last_name, first_name, username, state, district,_id, dob, gender, occupation, lga, nin, account, bank, account_name, phone,fingerprintdata } = props;
   return (
     <div className="dashboard-aside" style={{ margin: 'auto'}}>
-               { fingerprintdata.length ? <img src={'http://localhost:9000/uploads/'+fingerprintdata[0].img+'.png'} className="fingerprint-image" /> : ''}
+               { fingerprintdata.length ? <img src={'https://www.sharowmip.tk/uploads/'+fingerprintdata[0].img+'.png'} className="fingerprint-image" /> : ''}
 
                {/* {alert(JSON.stringify(fingerprintdata[0])) } */}
 
